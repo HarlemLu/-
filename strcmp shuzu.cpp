@@ -7,7 +7,7 @@ int mycmp(const char*s1,const char*s2)
 	while(s1[idx]==s2[idx]&&s1[idx]!='\0'){
 		idx++;
 	}
-	return *s1-*s2;
+	return s1[idx]-s2[idx];
 }
 
 int main(int argt,char const *argv[])
